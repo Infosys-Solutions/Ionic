@@ -1,0 +1,22 @@
+{
+	"results": [{
+		"user": {
+			"name": "Ali",
+			"password": "123",
+			"profession": "teacher",
+			"id": 1
+		}},{
+		"user": {
+			"name": "Arslan",
+			"password": "1234",
+			"profession": "Engineer",
+			"id": 2
+		}},{
+		"user": {
+			"name": "Akram",
+			"password": "abc",
+			"profession": "clerk",
+			"id": 3
+		}
+	}]
+}
