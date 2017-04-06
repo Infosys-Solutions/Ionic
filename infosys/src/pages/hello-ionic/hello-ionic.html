@@ -1,0 +1,245 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>INFOSYS </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+
+<ion-content  style="background-color:#EEEEEE">
+<ion-grid>
+    <ion-row hideWhen="android,ios">
+   
+        <ion-col col-sm-5>
+        <img src="img/logo.png" style="height:100px; width:230px">
+    	 </ion-col>
+        
+        <ion-col col-sm-7>
+        <br><br>
+            <h1>INFOSYS Institute of Information Technology Sargodha  </h1>
+       </ion-col>
+   
+    </ion-row>
+    
+       <ion-row showWhen="android,ios">
+   
+        <ion-col col-sm-12>
+        <img src="img/logo.png" style="margin-left:auto; margin-right:auto" >
+    	 </ion-col>
+     
+    </ion-row>
+    
+    <ion-row>
+        <ion-col col-sm-12>
+            <ion-slides pager >
+                
+                <ion-slide *ngFor="let slide of slides">
+                 <img [src]="slide.image" class="slide-image"/>
+                  <h3 class="slide-title" [innerHTML]="slide.title"></h3>
+                 <br>
+                </ion-slide>
+              
+            </ion-slides>
+
+   		 </ion-col>
+    </ion-row>
+<br hideWhen="android,ios">
+
+    <ion-row>
+        <ion-col col-sm-12>
+        <ion-card >
+        	<ion-card-header>
+            	
+           <h2 style="text-align:center"><strong>INFOSYS Institute of Information <br showWhen="android,ios">Technology Sargodha </strong></h2>
+       		 </ion-card-header>
+        
+    		<ion-card-content>
+              <p style="line-height:20px;text-align:justify; color:#333;font-size:14px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif">
+                INFOSYS Institute of Information Technology is the first institute in Sargodha which offers the latest ICT (Information & Communication Technology) trainings & courses. We are committed to our student’s satisfaction and have created a very friendly and learning environment with latest hardware and software. Our labs are equipted with latest operating systems and the software. INFOSYS Institute of Information Technology is official partner of Cisco US in Sargodha and working as Cisco Networking Academy. INFOSYS IIT is also official partner of E-Pakistan and working as Province Technology Center (PTC) for Punjab Province. Whether you are new to the ICT industry or are to improve your skills, INFOSYS IIT is the right place for you. 
+              </p>
+               </ion-card-content>
+             </ion-card>
+        </ion-col>
+    </ion-row>
+    <br>
+    
+    <ion-row hideWhen="android,ios">
+        	<ion-col col-sm-12>
+    		<h1 style="text-align:center">Trainings & Courses</h1>
+           </ion-col >
+           
+           <ion-col col-sm-6>
+           
+            <ion-list>
+                <button ion-item>
+                  <ion-icon name="code-working" item-left></ion-icon>
+                  Web Design & Development
+                  <div class="item-note" item-right>
+                      <small  > Basic Web Course</small>
+                  </div>
+                </button>
+                
+                <button ion-item>
+                  <ion-icon name="color-palette" item-left></ion-icon>
+                  Graphic Designing
+                  <div class="item-note" item-right> 
+                  <small  >Basic Graphic Course</small>
+                  </div>
+                </button>
+                
+                <button ion-item>
+                  <ion-icon name="wifi" item-left></ion-icon>
+                  CCNA Routing & Switching
+                  <div class="item-note" item-right>
+                       <small >Basic Networks Course</small>
+                  </div>
+                </button>
+      
+                <button ion-item>
+                  <ion-icon name="book" item-left></ion-icon>
+                  English Language
+                  <div class="item-note" item-right>
+                       <small >English Speaking Course</small>
+                  </div>
+                </button>
+          </ion-list>
+        </ion-col>
+        <ion-col col-sm-6>
+           
+            <ion-list>
+                <button ion-item>
+                  <ion-icon name="logo-android" item-left></ion-icon>
+                  Android Application Development
+                  <div class="item-note" item-right>
+                    <small >Android Development Course</small>
+                  </div>
+                </button>
+                
+                <button ion-item>
+                  <ion-icon name="book" item-left></ion-icon>
+                  Computerized Accounting
+                  <div class="item-note" item-right>
+                       <small >Basic Accounting Course</small>
+                  </div>
+                </button>
+                
+                <button ion-item>
+                  <ion-icon name="camera" item-left></ion-icon>
+                  Photography
+                  <div class="item-note" item-right> 
+                  <small  >Photography Course</small>
+                  </div>
+                </button>
+      
+                <button ion-item>
+                  <ion-icon name="wifi" item-left></ion-icon>
+                  Ethical Hacking
+                  <div class="item-note" item-right>
+                   <small  >Hacking Course</small>
+                  </div>
+                </button>
+          </ion-list>
+        </ion-col>
+        
+        
+        
+    </ion-row>
+    
+    
+    
+    
+    <ion-row showWhen="android,ios">
+        	<ion-col col-sm-12>
+    		<h1 style="text-align:center">Trainings & Courses</h1>
+           </ion-col >
+           
+           <ion-col col-sm-6>
+           
+            <ion-list>
+                <button ion-item>
+                  <ion-icon name="code-working" item-left></ion-icon>
+                  Web Design & Development
+                </button>
+                
+                <button ion-item>
+                  <ion-icon name="color-palette" item-left></ion-icon>
+                  Graphic Designing
+                </button>
+                
+                <button ion-item>
+                  <ion-icon name="wifi" item-left></ion-icon>
+                  CCNA Routing & Switching
+                </button>
+      
+                <button ion-item>
+                  <ion-icon name="book" item-left></ion-icon>
+                  English Language
+                </button>
+        		 <button ion-item>
+                  <ion-icon name="logo-android" item-left></ion-icon>
+                  Android Application Development
+                </button>
+                
+                <button ion-item>
+                  <ion-icon name="book" item-left></ion-icon>
+                  Computerized Accounting
+               </button>
+                
+                <button ion-item>
+                  <ion-icon name="camera" item-left></ion-icon>
+                  Photography
+                </button>
+      
+                <button ion-item>
+                  <ion-icon name="wifi" item-left></ion-icon>
+                  Ethical Hacking
+                </button>
+          </ion-list>
+        </ion-col>
+        
+        
+        
+    </ion-row>
+   
+   
+ <ion-row>
+        <ion-col col-xs-12>
+       
+          	
+           <h2 style="text-align:center"><strong>Events Details</strong></h2>
+       </ion-col>
+   </ion-row>
+   <ion-row>
+     <ion-col col-12 col-sm-4>
+        
+    		<img src="img/event.jpg" style="width:100%">
+            <p style="line-height:20px;text-align:justify; color:#333;font-size:14px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif">
+               INFOSYS arranged a great Seminar on Cyber Security & Digital Forensic. There was an excellent participation from University of Sargodha, Law Enforcement Agencies, Private and Public Sector. We are really thankful to our Chief Guest Mr. Ammar Jaffri – Former Additional Director General FIA, Mr. Mubashir, Mr. Abbass and other team members coming from Islamabad.We are also thankful to faculty and students from UOS and to all our other guests. 
+              </p>
+      </ion-col>
+     <ion-col col-12 col-sm-4>
+              <img src="img/11.jpg" style="width:100%">
+            <p style="line-height:20px;text-align:justify; color:#333;font-size:14px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif">
+               INFOSYS arranged a great Seminar on Cyber Security & Digital Forensic. There was an excellent participation from University of Sargodha, Law Enforcement Agencies, Private and Public Sector. We are really thankful to our Chief Guest Mr. Ammar Jaffri – Former Additional Director General FIA, Mr. Mubashir, Mr. Abbass and other team members coming from Islamabad.We are also thankful to faculty and students from UOS and to all our other guests. 
+              </p>
+              
+        </ion-col>
+        
+         <ion-col col-12 col-sm-4>
+    		<img src="img/event.jpg" style="width:100%">
+            <p style="line-height:20px;text-align:justify; color:#333;font-size:14px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif">
+               INFOSYS arranged a great Seminar on Cyber Security & Digital Forensic. There was an excellent participation from University of Sargodha, Law Enforcement Agencies, Private and Public Sector. We are really thankful to our Chief Guest Mr. Ammar Jaffri – Former Additional Director General FIA, Mr. Mubashir, Mr. Abbass and other team members coming from Islamabad.We are also thankful to faculty and students from UOS and to all our other guests. 
+              </p>
+         </ion-col>
+        
+        
+        
+    </ion-row>
+    
+</ion-grid>
+</ion-content>
+
+
